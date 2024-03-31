@@ -1,0 +1,19 @@
+{
+    "autoload": {
+        "files": [ /* sirve para acceder a los archivos demi carpeta src, archivos ayudantes con clases */
+            "src/file1.php",
+            "src/file2.php"
+        ],
+        //carpetas que cargan con distintas clases
+        "classmap": [ 
+            "database/seeds",
+            "database/factories"
+        ],
+        "psr-4": { //psr-4(recomendado).- Se hace enfásis solo a la carpeta principal.
+            "Text\\": "src/"
+        },
+        "psr-0": { //psr-0.- Se tiene que poner todas las rutas de las carpetas.
+            "Text\\": "src/"
+        }
+    }
+}
