@@ -1,0 +1,24 @@
+{
+    "name": "diego/como-iniciar-un-proyecto",
+    "description": "Ejemplo composer",
+    "type": "library",
+    "require": {
+        "nesbot/carbon": "2.x-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.6.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Diego\\ComoIniciarUnProyecto\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Diego Ivan",
+            "email": "Diego_cundapi@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
