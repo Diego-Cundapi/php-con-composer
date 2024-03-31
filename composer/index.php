@@ -3,4 +3,5 @@ require __DIR__. '/vendor/autoload.php'; //instalamos el vendor en mi archivo in
 echo Text\Format::upperText('hola');
 
 echo upper('hola');
+echo lower('OHLA');
 ?>
